@@ -1,0 +1,15 @@
+<suite name=" Ebay Sanity test suite">
+   <test name = " Release 2022.3 sanity testing">
+       <classes>
+          <class name ="org.testNG.test.testNg_practice.Ebay_sanity1"/>
+          <methods>
+          <exclude name = "sanity_test1"></exclude>
+          
+          </methods>
+           <class name ="org.testNG.test.testNg_practice.Amazon_sanity2"/>
+           <methods>
+           <exclude name = "sanity_test2"></exclude>
+           </methods>
+       </classes>
+   </test>
+</suite>
